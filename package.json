@@ -1,0 +1,11 @@
+{
+  "name": "mern_angular_interview-preparation",
+  "version": "1.0.0",
+  "description": "For interview preparation prcticing the problems related to important topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
