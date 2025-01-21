@@ -1,14 +1,14 @@
 //1
 const a = 1<2<3;
 const b = 1>2>3;
-console.log(a,b);
+// console.log(a,b);
 /* output: true false*/
 //2.
 const p = { k: 1, l: 2 };
 const q = { k: 1, l: 2 };
 let isEqual = p==q;
 let isStartEqual = p=== q;
-console.log(isEqual, isStartEqual); //false false
+// console.log(isEqual, isStartEqual); //false false
 /* output: false false
 Explanation: In JavaScript, when you compare objects using == or === , you're
 comparing their references in memory, not their actual contents. Even if
@@ -45,3 +45,8 @@ output:
 5
 10
 */
+var v;
+console.log(v);
+
+let n = null;
+console.log(typeof n)
