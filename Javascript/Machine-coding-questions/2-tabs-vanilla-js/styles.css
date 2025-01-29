@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.tabContent{
+    display: none;
+}
+
+.tabLinks{
+    padding: 5px;
+    border:1px solid #dfdfdf;
+    background-color: lightblue;
+    color: black;
+}
+.tabLinks:hover{
+    background-color: rgb(13, 156, 203);
+}
+.tabLinks.active{
+    background-color:  rgb(13, 156, 203);;
+    color: #fff;
+}
+.tabContent.active{
+    display: block;
+}
