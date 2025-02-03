@@ -45,23 +45,53 @@ output:
 5
 10
 */
-var v;
-console.log(v);
+// var v;
+// console.log(v);
 
-let n = null;
-console.log(typeof n);
+// let n = null;
+// console.log(typeof n);
 
-console.log([]==![]);
-console.log(+'Infinity' - '5')
-console.log(3 * 'foo');
-console.log(typeof typeof 1);
-console.log([] + {});
-console.log('foo' instanceof String);
-console.log(Math.max());
-console.log(NaN === NaN);
-console.log(typeof NaN);
-console.log([] + []);
-console.log(0.1 + 0.2 === 0.3);
-console.log('10' - - '5')
-console.log(null + null);
-console.log([] == '')
+// console.log([]==![]);
+// console.log(+'Infinity' - '5')
+// console.log(3 * 'foo');
+// console.log(typeof typeof 1);
+// console.log([] + {});
+// console.log('foo' instanceof String);
+// console.log(Math.max());
+// console.log(NaN === NaN);
+// console.log(typeof NaN);
+// console.log([] + []);
+// console.log(0.1 + 0.2 === 0.3);
+// console.log('10' - - '5')
+// console.log(null + null);
+// console.log([] == '')
+
+// Q) function func() {
+//     try {
+//     console.log(1)
+//     return
+//     } catch (e) {
+//     console.log(2)
+//     } finally {
+//     console.log(3)
+//     }
+//     console.log(4)
+//    }
+//    func();
+
+//Q
+// setTimeout(() => console.log(1), 0);
+// console.log(2);
+// new Promise(res => {
+//  console.log(3)
+//  res();
+// }).then(() => console.log(4));
+// console.log(5);
+//Q
+let c=0;
+let id = setInterval(() => {
+console.log(c++)
+},200)
+setTimeout(() => {
+clearInterval(id)
+},2000)
